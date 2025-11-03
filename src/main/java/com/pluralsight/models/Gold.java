@@ -13,7 +13,7 @@ public class Gold extends FixedAsset {
     }
 
     @Override
-    public void getValue() {
+    public void getValue(double value) {
 
     }
 }
