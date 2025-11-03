@@ -43,7 +43,7 @@ public class CreditCard implements Valuable {
     }
 
     @Override
-    public void getValue() {
+    public void getValue(double value) {
 
     }
 }
