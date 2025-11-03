@@ -1,6 +1,6 @@
 package com.pluralsight.models;
 
-public class CreditCard {
+public class CreditCard implements Valuable {
     private String name, accountNumber;
     private double balance;
 
@@ -32,5 +32,10 @@ public class CreditCard {
 
     public void setBalance(double balance) {
         this.balance = balance;
+    }
+
+    @Override
+    public void getValue() {
+
     }
 }

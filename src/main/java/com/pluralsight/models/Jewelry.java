@@ -13,7 +13,7 @@ public class Jewelry extends FixedAsset {
     }
 
     @Override
-    public double getMarketValue() {
-        return super.getMarketValue();
+    public void getValue() {
+
     }
 }

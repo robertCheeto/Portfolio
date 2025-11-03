@@ -1,6 +1,6 @@
 package com.pluralsight.models;
 
-public class BankAccount {
+public class BankAccount implements Valuable {
     private String name, accountNumber;
     private double balance;
 
@@ -42,8 +42,8 @@ public class BankAccount {
         this.balance += amount;
     }
 
-    public double getValue() {
-        return this.balance;
-    }
+    @Override
+    public void getValue() {
 
+    }
 }
