@@ -43,7 +43,7 @@ public class BankAccount implements Valuable {
     }
 
     @Override
-    public void getValue() {
+    public void getValue(double value) {
 
     }
 }
