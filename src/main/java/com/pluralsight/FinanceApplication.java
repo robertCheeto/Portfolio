@@ -10,7 +10,7 @@ public class FinanceApplication {
         bank1.deposit(100);
         System.out.println("Bank1's Balance: " + bank1.getBalance());
 
-        acc1.getValue();
+        //acc1.getValue();
         //acc1.deposit(); | method will not work because Valuable does
         // not have those methods within that class
 
