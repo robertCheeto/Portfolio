@@ -1,5 +1,5 @@
 package com.pluralsight.models;
 
 public interface Valuable {
-    void getValue();
+    void getValue(double value);
 }
