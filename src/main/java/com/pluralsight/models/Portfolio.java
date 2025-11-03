@@ -15,8 +15,12 @@ public class Portfolio {
         assets.add(asset);
     }
 
-    public double getValue() {
-        return 0;
+    // method below should be void instead of double
+    // need to figure out how to implement Valuable Object into class
+    public void getValue() {
+        for (int i = 0; i < assets.size(); i++) {
+            System.out.println("soup");
+        }
     }
 
     public double getMostValuable() {
